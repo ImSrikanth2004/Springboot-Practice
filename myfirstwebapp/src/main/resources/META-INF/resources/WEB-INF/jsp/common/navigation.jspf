@@ -1,0 +1,20 @@
+<nav
+	class="bg-gray-800 border-gray-200 dark:bg-gray-900 dark:border-gray-700 w-full justify-top">
+	<div
+		class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+		<div class="flex items-center space-x-6 rtl:space-x-reverse mr-auto">
+
+			<a href="/" class="text-sm  text-blue-600 dark:text-blue-500">Home</a>
+			<a href="/add-todo"
+				class="text-sm  text-blue-600 dark:text-blue-500 ">Add Todo</a> <a
+				href="/list-todos" class="text-sm  text-blue-600 dark:text-blue-500">List
+				Todos</a>
+		</div>
+		<div class="flex items-center space-x-6 rtl:space-x-reverse ml-auto">
+
+			<button onclick="window.location.href='logout'"
+				class="text-sm  text-blue-600 dark:text-blue-500 border-1 shadow-sm rounded-xl p-2.5 m-1 w-full">Logout</button>
+		</div>
+	</div>
+
+</nav>
